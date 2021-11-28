@@ -38,6 +38,11 @@ content="This is a covid-19 tracker. It shows data country-wise(using ip) and th
 </head>
 
 <body>
+    <!-- Loader -->
+        <div class='spinner-wrapper'>
+          <div class="spinner"></div>
+        </div>
+    <!-- End of Loader -->
     <!-- Navigation -->
     <div class="navbar">
 
@@ -619,6 +624,16 @@ content="This is a covid-19 tracker. It shows data country-wise(using ip) and th
     <!-- End of Main-Container -->
 
     <!--###### Scripts-embedding ######-->
+
+    <!-- Loader -->
+    <script>
+        let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+        window.addEventListener('load', function () {
+            // spinnerWrapper.style.display = 'none';
+            spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+        });
+    </script>
 
     <!-- Typewriter -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
