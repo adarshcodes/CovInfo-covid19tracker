@@ -70,6 +70,7 @@ async function getLocation() {
 		userCountry = "USA";
 	}
 }
+
 getLocation();
 
 console.log(userCountry);
@@ -77,7 +78,10 @@ console.log(userCountry);
 //########### End of Country Code #############//
 
 //############## API URL ##############//
+
 const apiURL = "https://corona.lmao.ninja/v2/countries/";
+// const apiURL =
+// 	"https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json";
 
 // https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json
 
@@ -90,6 +94,7 @@ async function getCovidData() {
 //############### World Data on Startup ###############//
 async function worldData() {
 	const response = await getCovidData();
+
 	let worldCases = 0;
 	let newWorldCases = 0;
 	let worldRecovered = 0;
