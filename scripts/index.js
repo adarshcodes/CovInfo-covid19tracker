@@ -80,8 +80,6 @@ console.log(userCountry);
 //############## API URL ##############//
 
 const apiURL = "https://corona.lmao.ninja/v2/countries/";
-// const apiURL =
-// 	"https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json";
 
 // https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.json
 
