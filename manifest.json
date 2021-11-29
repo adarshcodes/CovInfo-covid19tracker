@@ -1,6 +1,6 @@
 {
-"short_name": "n-Cov Tracker",
-"name": "Covid-19 Tracker",
+"short_name": "CovInfo",
+"name": "CovInfo",
 "icons": [
 {
 	"src": "./assets/cov.png",
