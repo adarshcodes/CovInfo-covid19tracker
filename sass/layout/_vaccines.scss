@@ -1,6 +1,14 @@
 .section-vaccination {
 	padding: 8rem 5rem 5rem 5rem;
 
+	@media screen and (max-width: 600px) {
+		padding: 3rem 5rem 5rem 5rem;
+	}
+
+	@media screen and (max-width: 450px) {
+		padding: 0rem 1rem 5rem 1rem;
+	}
+
 	.section-vaccine__card {
 		display: flex;
 		justify-content: center;
@@ -10,6 +18,14 @@
 			width: 80%;
 			box-shadow: 0 0.5rem 2.5rem rgba(26, 39, 61, 0.1);
 			padding: 5rem;
+
+			@media screen and (max-width: 992px) {
+				width: 100%;
+			}
+
+			@media screen and (max-width: 520px) {
+				padding: 5rem 1rem;
+			}
 
 			.vaccine-heading-card {
 				margin-left: 1.5rem;
@@ -174,6 +190,18 @@
 				font-size: 2rem;
 				color: #fff;
 				transform: skewX(15deg);
+
+				@media screen and (max-width: 812px) {
+					font-size: 1.5rem;
+				}
+
+				@media screen and (max-width: 590px) {
+					font-size: 1.2rem;
+				}
+
+				@media screen and (max-width: 355px) {
+					font-size: 1rem;
+				}
 			}
 
 			.phase-name {
@@ -181,6 +209,18 @@
 				color: #003483;
 				transform: skewX(15deg);
 				font-size: 2.2rem;
+
+				@media screen and (max-width: 812px) {
+					font-size: 1.5rem;
+				}
+
+				@media screen and (max-width: 590px) {
+					font-size: 1.2rem;
+				}
+
+				@media screen and (max-width: 355px) {
+					font-size: 1rem;
+				}
 			}
 		}
 	}

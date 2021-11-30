@@ -1211,7 +1211,7 @@ h5 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .section-stats {
     padding: 18rem 1rem 0 1rem;
   }
@@ -1801,6 +1801,12 @@ h5 {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .section-treatment {
+    padding: 0rem 1rem 3rem 1rem;
+  }
+}
+
 .section-treatment__card {
   padding: 5rem;
   width: 80%;
@@ -1918,6 +1924,18 @@ h5 {
   padding: 8rem 5rem 5rem 5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .section-vaccination {
+    padding: 3rem 5rem 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section-vaccination {
+    padding: 0rem 1rem 5rem 1rem;
+  }
+}
+
 .section-vaccination .section-vaccine__card {
   display: flex;
   justify-content: center;
@@ -1929,6 +1947,18 @@ h5 {
   box-shadow: 0 0.5rem 2.5rem rgba(26, 39, 61, 0.1);
   padding: 5rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .section-vaccination .section-vaccine__card .approved-part {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .section-vaccination .section-vaccine__card .approved-part {
+    padding: 5rem 1rem;
+  }
 }
 
 .section-vaccination .section-vaccine__card .approved-part .vaccine-heading-card {
@@ -2094,11 +2124,47 @@ h5 {
   transform: skewX(15deg);
 }
 
+@media screen and (max-width: 812px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .heading-vaccine-number {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .heading-vaccine-number {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .heading-vaccine-number {
+    font-size: 1rem;
+  }
+}
+
 .section-vaccination .section-vaccine__card .vaccine-phases-container .phase-name {
   margin-top: 1rem;
   color: #003483;
   transform: skewX(15deg);
   font-size: 2.2rem;
+}
+
+@media screen and (max-width: 812px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .phase-name {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .phase-name {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .section-vaccination .section-vaccine__card .vaccine-phases-container .phase-name {
+    font-size: 1rem;
+  }
 }
 
 .section-footer {
